@@ -1,0 +1,191 @@
+body{
+    overflow-x:hidden;
+}
+/****页面底部相对定位内容****/
+/*更多下载方式*/
+#section_bottom{
+    height:745px;
+    background:#f4f4f4;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:auto;
+}
+#section_bottom .inner{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:1200px;
+    height:360px;
+    margin:-180px 0 0 -600px;
+}
+/*内容*/
+#section_bottom .btn_wrap{
+    float:left;
+    width:595px;
+    height:360px;
+    background:url("../img/more/bg-split-line.png")no-repeat right top;
+}
+#section_bottom  .btn_wrap p{
+    display:block;
+    margin-bottom:40px;
+    font:20px/30px microsoft yahei;
+    color:#666;
+    text-align:center;
+}
+#section_bottom  .btn_wrap .btn_list{
+    margin-bottom:28px;
+    text-align:center;
+}
+#section_bottom  .btn_wrap .btn_list a{
+    background:url("../img/more/bg-apps-item.png") no-repeat;
+    display:inline-block;
+    width:189px;
+    height:63px;
+    margin-right:16px;
+}
+#section_bottom  .btn_wrap .btn_list a.btn_pc{
+    background-position:-759px -216px;
+}
+#section_bottom  .btn_wrap .btn_list a.btn_phone{
+    background-position: -759px -508px;
+}
+#section_bottom  .btn_wrap .btn_list a.btn_pad{
+    background-position: -958px -435px;
+}
+#section_bottom  .btn_wrap .btn_list a.btn_Android{
+    background-position:-759px -435px;
+}
+/*二维码扫描*/
+#section_bottom .ewm_wrap{
+    float:left;
+    height:360px;
+    width:595px;
+    text-align:center;
+}
+#section_bottom .ewm_wrap p{
+    margin-bottom:40px;
+    font:20px/30px microsoft yahei;
+    color:#666;
+    text-align:center;
+}
+#section_bottom .ewm_wrap .ewm_pic{
+    background:url("../img/more/bg-apps-item.png") no-repeat;
+    width:191px;
+    height:191px;
+    margin:0 auto;
+}
+/*尾部*/
+#section_bottom .footer{
+    position:absolute;
+    width:100%;
+    bottom:20px;
+    text-align:center;
+    font-size: 12px;color:#777;
+}
+#section_bottom .nav{
+    line-height:34px;
+}
+#section_bottom .nav a{
+    color:#777;
+    padding:0 5px;
+    border-right:1px solid #777;
+}
+#section_bottom .nav a.last{
+    border:none;
+}
+#section_bottom .footer .copyright{
+    color:#999;
+}
+#section_bottom .footer .copyright a{
+    color:#999;
+}
+    /****页面头部相对定位内容****/
+#section_header{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:680px;
+    left:0;
+    z-index:auto;
+    background:url('../img/more/bg-head-back.jpg') no-repeat;
+    z-index:auto;
+}
+#section_header .inner{
+    position:relative;
+    width:1200px;
+    margin:0 auto;
+}
+#section_header .inner>a{
+    display:block;
+    width:176px;height:25px;
+    margin:25px 0 0 25px;
+    background:url("../img/more/bg-apps-item.png") no-repeat -201px -145px;
+}
+#section_header .inner .rotate_3d_mouse{
+    width:615px;
+    margin:115px auto 0;
+}
+#section_header .rotate_3d_mouse .r_3d_text{
+    margin-bottom:66px;
+    height:66px;
+    background:url("../img/more/bg-apps-item.png")no-repeat 0 -724px;
+}
+#section_header .rotate_3d_mouse .r_3d_list{
+    text-align:center;
+}
+#section_header .rotate_3d_mouse .r_3d_list a{
+    background:url("../img/more/bg-apps-item.png")no-repeat;
+    position:relative;
+    display:inline-block;
+    width:196px;
+    height:62px;
+    margin:0 27px 29px 0;
+}
+#section_header .r_3d_list a.r_3d_pc{
+    background-position: -434px -612px;
+
+}
+#section_header .r_3d_list a.r_3d_phone{
+    background-position: -965px -581px;
+}
+#section_header .r_3d_list a.r_3d_pad{
+    background-position:-759px -581px;
+}
+#section_header .r_3d_list a.r_3d_Android{
+    background-position:-958px -508px;
+}
+/*海量课程*/
+#section_plane1{
+    position:relative;
+    height:600px;
+    margin-top:680px;
+    overflow:hidden;
+    background:#fff url("../img/more/bg-panel-1.png") no-repeat center;
+}
+.inner{
+position: relative;
+    width:1200px;
+    margin:0 auto;
+
+}
+
+/*精挑细选 个性推荐*/
+#section_plane2{
+    position:relative;
+    height:600px;
+    background: #fff url(../img/more/bg-txtj-back.jpg) no-repeat center;
+}
+/*翻转课堂 互动教学*/
+#section_plane3{
+    position:relative;
+    height:600px;
+    background: #fff;
+}
+/*课程直播 万众瞩目*/
+#section_plane4{
+    margin-bottom:600px;
+    height:600px;
+    overflow:hidden;
+}

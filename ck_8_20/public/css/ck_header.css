@@ -1,0 +1,272 @@
+
+/*基本*/
+body{
+    font-family:Arial,'simsun','Tahoma',sans-serif;
+    font-size:100%;
+    font-size:1em;
+    font-size:12px;
+    color:#333;
+    word-wrap: break-word;
+    background:#f0f0f0;
+}
+.ac{
+    color:#fff;
+}
+/*logo背景图片*/
+.log_top{
+    background:url("../img/logo_t.png")
+}
+
+/*topBar i图片标记 */
+.icoR{
+    display:inline-block;
+    overflow:hidden;
+    vertical-align:middle;
+    background:url("../img/topr_bg.png") no-repeat 0 0;
+}
+/*下载传课*/
+.icoR0{
+    width:13px;
+    height:14px;
+    background-position:-56px -116px;
+}
+/*购物车*/
+.icoR1{
+    width:18px;
+    height:14px;
+    background-position:-184px -5px;
+}
+/*搜索框 搜索*/
+.icoR3{
+    width:18px;
+    height:18px;
+    background-position:-57px -44px;
+}
+/*搜索框 课程*/
+.icoR4{
+    width:6px;
+    height:3px;
+    background-position:-5px -50px;
+}
+/********javascript class 转换**********/
+
+
+/*搜索按钮 获得焦点事件*/
+.tR_text_focus{
+    background-position:-117px -84px;
+}
+/********************header*********************/
+.topR {
+    height: 56px;
+    min-width: 1190px;
+    background: #1cb177;
+    position: relative;
+}
+.topR .wrapper{
+    width:1190px;
+    height:56px;
+    max-width:1190px;
+    min-width:1190px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#1CB177;
+}
+/*logo*/
+.topR .log_top{
+    display:block;
+    float:left;
+    width:284px;
+    height:39px;
+    margin:9px 40px 0 0;
+}
+/*列表*/
+.topR .topR_ul>li{
+    float:left;
+}
+.topR .liClient>a{
+    float:left;
+    line-height:56px;
+    color:#fff;
+    min-width:56px;
+    font-size:14px;
+    text-decoration:none;
+    padding:0 10px;
+}
+/*下载传课*/
+.topR .topR_ul>.liClient{
+    position:relative;
+}
+/*i图片标记*/
+.topR li a.icoR{
+    float:left;
+    margin-top:22px;
+    margin-right:5px;
+    cursor:pointer;
+}
+.topR_ul li.liClient:hover .tc_download_clearfix{
+     display:block;
+ }
+/*弹出框 扫二维码*/
+.topR li.liClient .tc_download_clearfix{
+    width:232px;
+    height:109px;
+    position:absolute;
+    z-index:200;
+    border:1px solid #ccc;
+    top:56px;
+    left:-60px;
+    padding:15px;
+    background:#fff;
+    border-top:none;
+    display:none;
+}
+/*更多传课产品hover*/
+.topR li .tc_download_bt .tc_download_more:hover{
+    color:#fff;
+}
+/*弹出框 左边*/
+.topR li .tc_download_clearfix .tc_download_img{
+    float:left;
+    padding-bottom:6px;
+    display:inline;
+}
+
+.topR li .tc_download_img img{
+    display:block;
+    width:92px;
+    height:92px;
+    padding-bottom:6px;
+
+}
+.topR li  .tc_download_img p{
+    color:#999;
+}
+/*弹出框 右边*/
+.topR li .tc_download_clearfix .tc_download_bt{
+
+    width:124px;
+    overflow:hidden;
+
+}
+.topR li .tc_download_bt .tc_download_title{
+    padding-bottom:5px;
+}
+.topR li .tc_download_bt a{
+    display:block;
+    width:122px;
+    height:34px;
+    border:1px solid #29b079;
+    background:#29b079;
+    margin-top:9px;
+    line-height:34px;
+    text-align:center;
+    padding:0;
+}
+.topR li  .tc_download_bt a{
+    color:#fff;
+    font-size:14px;
+    min-width:39px;
+    font-family:"microsoft yahei";
+}
+.topR li .tc_download_bt .tc_download_more{
+    color:#29b079;
+    background:#fff;
+}
+/*搜索框*/
+.topR_search{
+    float:left;
+    margin-right:13px;
+    height:43px;
+}
+.topR_search .inner{
+    min-width:270px;
+    max-width:447px;
+    height:30px;
+    margin-top:13px;
+    margin-left:13px;
+    background:#fff;
+}
+/*课程与学校*/
+.topR_search .inner .tR_label{
+    float:left;
+    width:53px;
+    height:30px;
+    line-height:30px;
+    text-indent:11px;
+    position:relative;
+}
+.topR_search .inner .tR_label a{
+    color:#666;
+    display:block;
+}
+
+/*课程 点击事件后隐藏*/
+.topR_search .inner .tR_label>a{
+    background:#f0f0f0;
+    border-bottom:none;
+    position:relative;
+}
+.topR_search .inner .tR_label .icoR4{
+    position:absolute;
+    top:14px;
+    left:40px;
+}
+/*学校与课程 点击事件后显示*/
+.topR_search .inner .tR_label_sup {
+    width:53px;
+    height:30px;
+    z-index:200;
+    box-sizing:border-box;
+    position:absolute;
+    display:none;
+
+}
+.topR_search .inner .tR_label_sup a{
+    border:1px solid #ddd;
+    background:#fff;
+}
+.topR_search .inner .tR_label_sup a:first-child{
+    border-bottom:none;
+}
+.topR_search .inner .tR_label_sup a:last-child{
+    border-top:none;
+}
+/*搜索内容*/
+.topR_search .inner .tR_text{
+    float:left;
+    margin-top:8px;
+    margin-left:14px;
+    position:relative;
+}
+.topR_search .inner .tR_text>span{
+    color:#999;
+    font-size:12px;
+    line-height:14px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.topR_search .inner .tR_text .ipt{
+    width:350px;
+    border:none;
+}
+.topR_search .inner .tR_text .tR_btn{
+    display:block;
+    float:right;
+    width:18px;
+    height:18px;
+    padding:6px;
+    margin-top:-8px;
+}
+/*登陆与注册*/
+.tR_login{
+    float:right;
+}
+.tR_login li{
+    float:left;
+    color:#fff;
+    font-size:14px;
+    line-height:26px;
+    margin-top:15px;
+    margin-left:15px;
+}

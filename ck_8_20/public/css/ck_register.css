@@ -1,0 +1,155 @@
+#header{
+    width:100%;
+    padding-bottom: 10px;
+    height:60px;
+    background: #fff;
+}
+.hd_inner{
+    width:1240px;
+    height:60px;
+    margin:0 auto;
+    line-height:60px;
+}
+/*清除浮动*/
+.clear:after{
+    content: ".";
+    display: block;
+    height: 60px;
+    clear: both;
+    visibility: hidden;
+}
+.hd_logo{
+    display:block;
+    float:left;
+}
+/*左边logo图*/
+.hd_logo img{
+   margin-bottom: 15px;
+    padding-right:10px
+}
+.hd_logo span{
+    display:inline-block;
+    font-size:24px;
+    height:23px;
+    line-height:23px;
+    vertical-align:middle;
+    border-left:2px solid #ddd;
+    padding-left:10px;
+    color:#999;
+}
+/*右边文本*/
+.reg_link{
+    float:right;
+    color:#666;
+}
+.reg_link button{
+    display:inline-block;
+    padding:5px 20px;
+    line-height:20px;
+    border:1px solid #ddd;
+    border-radius:5px;
+    background:#fff;
+    text-align:center;
+    font-size:14px;
+    transition:.3s;
+    font-weight:bold;
+}
+.reg_link button:hover{
+    background: #f6f6f6;
+}
+/*下划线*/
+.nav{
+    width:100%;
+    float:left;
+}
+.nav div{
+    background:url(../img/register/reg_hr.png)no-repeat center top;
+    height:20px;
+}
+/*主题内容*/
+#content{
+    width:100%;
+    margin-top:30px;
+}
+.content_inner{
+    width:1240px;
+    margin:0 auto;
+}
+.form{
+    float:left;
+    margin-top:20px;
+}
+/*段落*/
+.form>p{
+    position: relative;
+    margin-bottom:20px;
+    height:42px;
+}
+.form>p label{
+    float:left;
+    position: relative;
+    width:74px;
+    height:42px;
+    line-height:42px;
+    text-align:right;
+    font-weight:bold;
+    font-size:18px;
+    margin-right:10px;
+
+}
+.form>p input{
+    float:left;
+    width:380px;
+    padding:11px 10px;
+    border:1px solid #ddd;
+    font-size:14px;
+    height:16px;
+    margin-right:10px;
+    color:#666;
+
+}
+/*提示内容  错误或用户名已有更改内容*/
+.form>p .item_text{
+    position:relative;
+    float:left;
+    top:4px;
+    left:0;
+    margin-top:5px;
+    color:#999;
+    margin-left:17px;
+    display:none;
+}
+/*正确或错误显示的span*/
+.form>p span.item{
+    background:url(../img/register/reg_icons.png) no-repeat;
+    position:absolute;
+    width:17px;
+    height:17px;
+    top:11px;
+    left:490px;
+}
+.form>p.item_p .item_right{
+    background-position:-80px 0;
+}
+.form>p.item_p .item_error{
+    background-position:-80px -24px;
+}
+    /*阅读协议*/
+.btn_radio{
+    margin-left:75px;
+    margin-bottom: 20px;
+}
+/*注册按钮*/
+#btn_reg{
+    width:400px;
+    height:45px;
+    background:#3F88EB;
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+    margin-left:75px;
+    display:block;
+    line-height: 45px;
+    text-align:center;
+    border-radius:5px;
+}

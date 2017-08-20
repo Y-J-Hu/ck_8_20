@@ -1,0 +1,143 @@
+
+header{
+    height:60px;
+    width:100%;
+    background:#fff;
+    padding-bottom:10px;
+}
+
+/*清除浮动*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 60px;
+    clear: both;
+    visibility: hidden;
+}
+.hd_inner{
+    width:1240px;
+    height:60px;
+    margin:0 auto;
+
+}
+.hd_logo{
+    float:left;
+    line-height:60px;
+}
+.hd_reg{
+    float:right;
+    width:237px;
+    line-height: 60px;;
+}
+.btn_register{
+    display:inline-block;
+    padding:0 38px;
+    line-height:38px;
+    border:1px solid #ddd;
+    border-radius:5px;
+    background:#fff;
+    text-align:center;
+    font-size:14px;
+    transition:.3s;
+}
+.btn_register:hover{
+    background:#f6f6f6;
+}
+.content{
+    background:#3F9C87;
+    width:100%;
+    height:580px;
+}
+.bd_inner{
+    background:url(../img/login/login-bg.jpg)no-repeat -355px 0;
+    height:100%;
+    position:relative;
+}
+.bd_reg{
+    position:absolute;
+    width:350px;
+    background:#fff;
+    left:1031px;
+    top:103px;
+}
+.reg_inner{
+    margin:35px 45px;
+    position:relative;
+}
+.reg_inner h3{
+    font-size:20px;
+    color:#333;
+    font-weight:400;
+}
+.reg_content>a{
+    display:inline-block;
+    position: absolute;
+    background:url(../img/login/ico-login-phone.png)no-repeat;
+    z-index:10;
+    width:65px;
+    height:65px;
+    left:240px;
+    top:-35px;
+}
+.from_inner{
+    margin-top: 6px;
+    position:relative;
+}
+.from_inner form{
+    margin-top: 15px;
+}
+.u_input{
+    margin-bottom: 15px;
+    position:relative;
+}
+.u_input label{
+    position:absolute;
+    width:18px;
+    height:18px;
+    left:13px;
+    top:11px;
+    background:url(../img/login/ico-username.png) no-repeat;
+}
+.pwd label{
+    background:url(../img/login/ico-password.png)no-repeat;
+}
+.u_input input{
+    width:209px;
+    height:39px;
+    border:1px solid #ddd;
+    padding-left:50px;
+}
+.u_get{
+    background:#3DC68E;
+    width:260px;
+    line-height:40px;
+    display:block;
+    text-align:center;
+    font-size:14px;
+    color:#fff;
+    font-weight:600;
+    cursor:pointer;
+}
+.footer{
+    margin-top:30px;
+}
+.footer p{
+    text-align:center;
+    margin-top: 20px;
+}
+.u_input span{
+    margin-left:20px;
+    color:#e4393c;
+    display:none;
+}
+.nth1 a{
+    display:inline-block;
+    border-left: 1px solid #ddd;
+    padding:0 20px;
+}
+.nth1 a.a_first{
+    border:none;
+}
+.nth2{
+    color:#B29999;
+}

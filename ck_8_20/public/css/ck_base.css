@@ -1,0 +1,103 @@
+/*
+	* Des: 底层结构样式表 base.css
+	* Author: csy347
+	* Email: csy347@gmail.com
+	* Date: 2012-05-03/2013-03-25
+	* Version: 1.0
+*/
+
+/* =S html reset
+///////////////////////////////////////////// */
+*{padding:0;margin:0}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}
+body{line-height:1.16667}
+ol,ul{list-style:none}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,i,strong,th,var,optgroup{font-style:normal;font-weight:normal}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+table{border-collapse:collapse;border-spacing:0}/* tables still need 'cellspacing="0"' in the markup */
+/*caption,th{text-align:left}*/
+:focus{outline:0}/* remember to define focus styles! */
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+blockquote,q{quotes:"" ""}
+input,button,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,button,select,img{vertical-align:middle}
+textarea{vertical-align:top}
+/*to enable resizing for IE*/
+input,button,textarea,select{*font-size:100%}
+/*because legend doesn't inherit in IE */
+
+/* =E html reset
+///////////////////////////////////////////// */
+
+
+/* =S type presets
+///////////////////////////////////////////// */
+body{
+    font-family:Arial,'simsun','Tahoma',sans-serif;
+    font-size:100%;
+    font-size:1em;
+    font-size:12px;
+    color:#333;
+    word-wrap: break-word;
+}
+
+/* for webkit */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    body{font-family:arial,'simsun',sans-serif}
+}
+
+/* link colors */
+a{color:#555;text-decoration: none;}
+
+
+dt{font-weight:bold}
+p{font-size:1em}
+h1,h2,h3,h4,h5,h6{font-weight:bold}
+h1{font-size:2em}
+h2{font-size:1.7em}
+h3{font-size:1.3em}
+h4{font-size:1.25em}
+h5,h6{font-size:1em}
+input,textarea{font:.75em Arial,'simsun',sans-serif}
+hr{display:block;width:100%;height:1px;border:none;background:#ccc;color:#ccc}
+a img{display:inline-block}/* Stops image links getting text link styles */
+/*img,object,embed{max-width:100%;}*/
+/* =E type presets
+///////////////////////////////////////////// */
+
+
+
+/* =S core
+///////////////////////////////////////////// */
+/* 文字排版 */
+.f12{font-size:12px}
+.f14{font-size:14px}
+.f16{font-size:16px}
+.f18{font-size:18px}
+.f20{font-size:20px}
+.f24{font-size:24px}
+.fb{font-weight:bold}
+.fn{font-weight:normal}
+.t2{text-indent:2em}
+.lh150{line-height:1.5}
+.lh180{line-height:1.8}
+.lh200{line-height:2}
+.lh16{line-height:16px}
+.lh20{line-height:20px}
+.lh25{line-height:25px}
+.lh30{line-height:30px}
+.unl{text-decoration:underline}
+.no_unl{text-decoration:none}
+.arial{font-family:arial}
+.simsun{font-family:'simsun'}
+.yahei{font-family:'microsoft yahei'}
+
+
+
+
+
+
